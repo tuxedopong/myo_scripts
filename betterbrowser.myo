@@ -130,6 +130,7 @@ function onFist()
 	isScrolling = true
 
 	myo.notifyUserAction()
+  --myo.crash()
 end
 
 function onFingersSpread()
