@@ -47,6 +47,7 @@ function onPoseEdge(pose, edge)
 			if (pose == "waveLeft") then
 				-- Hand says: Come Hither 
 				print(poses[1])
+				myo.debug("waveLeft: " .. pose .. ": " .. edge .. poses[1])
 				--WHERE DOES PRINT GO?? NEED SOMETHING THAT DISPLAYS MESSAGE TO USER. 
 				onWaveLeft()
 			elseif (pose == "waveRight") then
